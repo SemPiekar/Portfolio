@@ -1,11 +1,11 @@
 <?php
-include_once 'header.php';
+include_once 'header.html';
 ?>
 <main>
     <div class="container">
         <div class="landingPageBackground">
             <?php
-            include_once 'includes/nav.php';
+            include_once 'includes/nav.html';
             ?>
             <div class="landingPageHeader">
                 <h1>Sem Piekar</h1>
@@ -101,5 +101,5 @@ include_once 'header.php';
     </section>
 </main>
 <?php
-include_once 'includes/footer.php';
+include_once 'includes/footer.html';
 ?>
