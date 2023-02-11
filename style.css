@@ -18,6 +18,33 @@ main {
   position: relative;
 }
 
+.solid-nav {
+  background-color: #aaa;
+  transition: background-color 0.2s linear;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.progress-container {
+  height: 10px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #93ECC7;
+  height: 10px;
+  width: 0%;
+}
+
+.content {
+  padding: 2em;
+}
+
 button {
   cursor: pointer;
 }
@@ -35,7 +62,8 @@ nav {
   width: 100vw;
   height: 7rem;
   display: flex;
-  z-index: +1;
+  z-index: 1;
+  position: fixed;
 }
 
 nav img {
@@ -379,12 +407,14 @@ h1 {
   user-select: none;
 }
 
-.box-header, .box-text {
+.box-header,
+.box-text {
   display: none;
 }
 
 /* Show header and text when box is big */
-.div.big .box-header, .div.big .box-text {
+.div.big .box-header,
+.div.big .box-text {
   display: block;
 }
 
@@ -418,4 +448,10 @@ h1 {
 
 .container2 div.big .box-text {
   order: 1;
+}
+
+footer {
+  height: 40vh;
+  width: 100vw;
+  background-color: aqua;
 }

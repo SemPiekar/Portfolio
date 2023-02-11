@@ -1,13 +1,18 @@
 <?php
-include './db_connnection.php';
+// include the database connection file
+include './database/db_connnection.php';
+// open the database connection
 $conn = OpenCon();
+// close the database connection
 CloseCon($conn);
+// include the header file
 include_once 'header.html';
 ?>
 <main>
     <div class="container">
         <div class="landingPageBackground">
             <?php
+            // include the navigation menu
             include_once 'includes/nav.html';
             ?>
             <div class="landingPageHeader">
