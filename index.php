@@ -133,12 +133,48 @@ include_once 'header.html';
             <div>
                 <h2>Try clicking the boxes.</h2>
                 <div class="container2">
-                    <div class="div" id="div1"><img src="./images/JS.png" alt=""></div>
-                    <div class="div" id="div2"><img src="./images/HTML.png" alt=""></div>
-                    <div class="div" id="div3"><img src="./images/PHP.png" alt=""></div>
-                    <div class="div" id="div4"><img src="./images/CSS.png" alt=""></div>
-                    <div class="div" id="div5"><img src="./images/SQL.jpg" alt=""></div>
-                    <div class="div" id="div6"><img src="./images/PYTHON.jpg" alt=""></div>
+                    <div class="div" id="div1"><img src="./images/JS.png" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="div" id="div2"><img src="./images/HTML.png" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="div" id="div3"><img src="./images/CSS.png" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="div" id="div4"><img src="./images/PHP.png" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="div" id="div5"><img src="./images/SQL.jpg" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="div" id="div6"><img src="./images/PYTHON.jpg" alt="">
+                        <div class="box-info">
+                            <h2 class="box-header">Box 1</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id nunc
+                                vitae augue convallis tincidunt. Sed imperdiet vel velit vel laoreet.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
