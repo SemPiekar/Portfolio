@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
 }
@@ -16,6 +20,16 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+}
+
+.contact_body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/portfolio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
 }
 
 .solid-nav {
@@ -212,6 +226,17 @@ h1 {
   font-size: 1.2rem;
 }
 
+.githubButton1 {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(36, 28, 28);
+  color: #fff;
+  margin: 0.5rem;
+  width: 18rem;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+
 .projectCard p {
   color: #000;
   font-size: 1.3rem;
@@ -244,7 +269,7 @@ h1 {
 .projectCardImage1 {
   width: 15.5rem;
   height: 15vh;
-  background-image: url(./images/projectp2.png);
+  background-image: url(./images/LinearRegression.jpg);
   background-size: cover;
 }
 
@@ -451,7 +476,16 @@ h1 {
 }
 
 footer {
-  height: 40vh;
+  height: 10vh;
   width: 100vw;
-  background-color: aqua;
+  background-color: #202020;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.contact_body {
+  background-image: url(/images/portfolio.png);
 }

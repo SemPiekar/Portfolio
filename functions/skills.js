@@ -1,14 +1,7 @@
-// Wait for the DOM to be loaded before running the script
 document.addEventListener("DOMContentLoaded", function () {
-
-    // Find all divs with the "div" class
     var divs = document.querySelectorAll(".div");
-
-    // Add a click event listener to each div found
     for (var i = 0; i < divs.length; i++) {
         divs[i].addEventListener("click", function () {
-
-            // If the div is already big, return it to its original size
             if (this.offsetWidth > 250) {
                 this.classList.remove("big");
                 this.style.width = "250px";
@@ -16,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 this.style.boxShadow = "none";
                 this.style.border = "none";
                 this.style.position = "static";
-
-                // If the div is not already big, make it big and bring it to the front
             } else {
                 for (var j = 0; j < divs.length; j++) {
                     divs[j].classList.remove("big");

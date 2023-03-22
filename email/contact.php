@@ -8,7 +8,7 @@
     <title>Contact Me</title>
 </head>
 
-<body>
+<body class="contact_body">
     <main>
         <p>SEND E-MAIL</p>
         <form class="contactForm" action="contactform" method="post">
